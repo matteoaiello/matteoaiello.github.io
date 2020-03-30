@@ -21,7 +21,7 @@ footer {
 
 .btn-primary {
     background-color: rgb(66, 66, 66);
-    border: 1px solid cornsilk;
+    border: 1px solid wheat;
     text-align: center;
     position: relative;
     bottom: -10px;
@@ -30,4 +30,8 @@ footer {
 .btn-primary:hover {
     cursor: pointer;
     background-color: greenyellow;
+}
+
+.btn-primary:active {
+    color: slategrey; 
 }
