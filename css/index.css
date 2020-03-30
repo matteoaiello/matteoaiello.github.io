@@ -1,3 +1,33 @@
 .brandimage {
-    
+
+}
+
+/* footer code starts here */
+
+footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: darkslategrey !important
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   height:80px;   /* Height of the footer */
+}
+
+.btn-primary {
+    background-color: rgb(66, 66, 66);
+    border: 1px solid cornsilk;
+    text-align: center;
+    position: relative;
+    bottom: -10px;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    background-color: greenyellow;
 }
