@@ -29,7 +29,7 @@ footer {
 
 .btn-primary:hover {
     cursor: pointer;
-    background-color: greenyellow;
+    background-color: wheat;
 }
 
 .btn-primary:active {
@@ -41,4 +41,14 @@ footer {
 .wrapper{
     position: relative;
     min-height: 100vh;
+    background-color: wheat;
+}
+
+.jumbotron {
+    background-color: white;
+    text-align: center;
+}
+
+* {
+    font-family: 'Raleway';
 }
