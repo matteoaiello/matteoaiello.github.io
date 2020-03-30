@@ -52,3 +52,17 @@ footer {
 * {
     font-family: 'Raleway';
 }
+
+.navbuttonformat {
+    color: wheat !important; 
+    font-size: large; 
+    font-family: 'Raleway';
+}
+
+.highlighted {
+    text-decoration-line: overline;
+}
+
+.navbuttonformat:hover {
+    font-weight: bolder;
+}
