@@ -35,3 +35,10 @@ footer {
 .btn-primary:active {
     color: slategrey; 
 }
+
+/* Footer code ends here */
+
+.wrapper{
+    position: relative;
+    min-height: 100vh;
+}
