@@ -16,7 +16,7 @@ footer {
 #footer {
    position:absolute;
    bottom:0;
-   height:80px;   /* Height of the footer */
+   height:60px;
 }
 
 .btn-primary {
@@ -66,3 +66,4 @@ footer {
 .navbuttonformat:hover {
     font-weight: bolder;
 }
+
