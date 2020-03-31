@@ -75,3 +75,13 @@ footer {
     top:62.5%; left:50%; 
     transform: translate(-50%,-50%)
 }
+
+.viewmyresume {
+    font-weight:bold; 
+    color: darkslategray;
+}
+
+.viewmyresume:hover {
+    cursor:pointer;
+    color: darkslategray;
+}
