@@ -40,13 +40,15 @@ footer {
 
 .wrapper{
     position: relative;
-    min-height: 100vh;
+    min-height: 95vh;
     background-color: wheat;
 }
 
 .jumbotron {
     background-color: white;
     text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 * {
@@ -67,3 +69,9 @@ footer {
     font-weight: bolder;
 }
 
+.imageformat {
+    width:50%; 
+    position:absolute; 
+    top:62.5%; left:50%; 
+    transform: translate(-50%,-50%)
+}
