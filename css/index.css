@@ -10,18 +10,20 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: darkslategrey !important
+  background-color: rgb(43, 43, 43) !important
 }
 
 #footer {
    position:absolute;
    bottom:0;
    height:60px;
+   border-top: white 30px; /* config */
 }
 
 .btn-primary {
-    background-color: rgb(66, 66, 66);
-    border: 1px solid wheat;
+    background-color:  rgb(43, 43, 43);
+    border:none;
+    color: white;
     text-align: center;
     position: relative;
     bottom: -10px;
@@ -29,11 +31,12 @@ footer {
 
 .btn-primary:hover {
     cursor: pointer;
-    background-color: wheat;
+    background-color: crimson;
+    border-color: white;
 }
 
 .btn-primary:active {
-    color: slategrey; 
+    color: rgb(66, 66, 66); 
 }
 
 /* Footer code ends here */
@@ -41,11 +44,12 @@ footer {
 .wrapper{
     position: relative;
     min-height: 95vh;
-    background-color: wheat;
+    background-color:  rgb(43, 43, 43);
 }
 
 .jumbotron {
     background-color: white;
+    color:  rgb(43, 43, 43);
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -56,7 +60,7 @@ footer {
 }
 
 .navbuttonformat {
-    color: wheat !important; 
+    color: white !important; 
     font-size: large; 
     font-family: 'Raleway';
 }
@@ -78,10 +82,17 @@ footer {
 
 .viewmyresume {
     font-weight:bold; 
-    color: darkslategray;
+    color: crimson;
 }
 
 .viewmyresume:hover {
     cursor:pointer;
-    color: darkslategray;
+    color: crimson;
+}
+
+.navbarstyle {
+    background-color:  rgb(43, 43, 43); 
+    height:80px;    
+    border-bottom-color:white; 
+    border-bottom:100;
 }
