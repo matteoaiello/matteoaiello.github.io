@@ -10,14 +10,17 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: rgb(43, 43, 43) !important
+  background-color: rgb(43, 43, 43) !important;
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-color: dodgerblue;
 }
 
 #footer {
    position:absolute;
    bottom:0;
    height:60px;
-   border-top: white 30px; /* config */
+   
 }
 
 .btn-primary {
@@ -31,7 +34,7 @@ footer {
 
 .btn-primary:hover {
     cursor: pointer;
-    background-color: crimson;
+    background-color: dodgerblue;
     border-color: white;
 }
 
@@ -43,13 +46,13 @@ footer {
 
 .wrapper{
     position: relative;
-    min-height: 95vh;
+    min-height: 120vh;
     background-color:  rgb(43, 43, 43);
 }
 
 .jumbotron {
-    background-color: white;
-    color:  rgb(43, 43, 43);
+    background-color: rgb(43, 43, 43);
+    color:  white;
     text-align: center;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -77,22 +80,26 @@ footer {
     width:50%; 
     position:absolute; 
     top:62.5%; left:50%; 
-    transform: translate(-50%,-50%)
+    transform: translate(-50%,-50%);
 }
 
 .viewmyresume {
     font-weight:bold; 
-    color: crimson;
+    color: dodgerblue;
 }
 
 .viewmyresume:hover {
     cursor:pointer;
-    color: crimson;
+    color: dodgerblue;
 }
 
 .navbarstyle {
     background-color:  rgb(43, 43, 43); 
     height:80px;    
-    border-bottom-color:white; 
-    border-bottom:100;
+    border-bottom-width: 5px;
+    border-color: dodgerblue;
+}
+
+.navbar {
+    margin-bottom: 0px !important;
 }
