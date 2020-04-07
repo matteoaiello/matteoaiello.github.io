@@ -51,7 +51,8 @@ footer {
 }
 
 .jumbotron {
-    background-color: rgb(43, 43, 43);
+    z-index: 5;
+    background-color:transparent;
     color:  white;
     text-align: center;
     padding-top: 1%;
@@ -63,7 +64,7 @@ footer {
 }
 
 .navbuttonformat {
-    color: white !important; 
+    color: orange !important; 
     font-size: large; 
     font-family: 'Raleway';
 }
@@ -73,7 +74,7 @@ footer {
 }
 
 .navbuttonformat:hover {
-    font-weight: bolder;
+    font-weight: bolder !important;
 }
 
 .imageformat {
@@ -95,11 +96,83 @@ footer {
 
 .navbarstyle {
     background-color:  rgb(43, 43, 43); 
-    height:80px;    
-    border-bottom-width: 5px;
-    border-color: dodgerblue;
+    height:50px; 
 }
 
 .navbar {
     margin-bottom: 0px !important;
+    border-radius: 0 !important;
+}
+
+.pagecontentstyle {
+    text-align: center;
+    color: black;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.scroll-down {
+    height: 80px;
+    width: 6%;
+    display: block;
+    position: absolute;
+    bottom: 2vh;
+    right: 47%;
+    background-color: rgb(43, 43, 43);
+    text-align: center;
+    z-index: 6;
+    border: orange 2px solid;
+    cursor: pointer;
+}
+
+.bounce{
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-5px);
+  }
+  60% {
+    transform: translateY(-8px);
+  }
+}
+
+.overlay {
+    background-color: grey;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.6;
+    filter: alpha(opacity=75);
+    z-index: 1 !important;
+}
+
+.photobackground{
+    background-image: url("/images/20091130-Teton-Moonlight-bw.jpg");
+    height:100vh;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.container{
+    z-index: 3 !important;
+    position: relative;
 }
