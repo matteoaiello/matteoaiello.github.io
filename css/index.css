@@ -65,7 +65,7 @@ footer {
 
 .navbuttonformat {
     color: orange !important; 
-    font-size: large; 
+    font-size: medium; 
     font-family: 'Raleway';
 }
 
@@ -96,7 +96,9 @@ footer {
 
 .navbarstyle {
     background-color:  rgb(43, 43, 43); 
-    height:50px; 
+    height:20px !important; 
+    position:-webkit-sticky; position:sticky; top:0; z-index: 999; 
+    width:100%;border-top:orange 2px solid;border-bottom:orange 3px solid;
 }
 
 .navbar {
@@ -133,6 +135,7 @@ footer {
     z-index: 6;
     border: orange 2px solid;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .bounce{
@@ -174,5 +177,13 @@ footer {
 
 .container{
     z-index: 3 !important;
-    position: relative;
 }
+
+hr {
+}
+
+.col-md-4 {
+    /*text-align: left !important;*/
+    line-height: 200%;
+}
+

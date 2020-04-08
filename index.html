@@ -35,14 +35,15 @@
   <body> <!-- body starts -->
     
     <div id="fullpage"> <!-- wrapper -->
-
+            
+            <!--photobackground-->
             <div class="photobackground">
             <!--Home Page-->
             <div class="section pagecontentstyle">
                 <!--container-->
-                <div class="container" style="padding-bottom:300px; z-index: 4;">
+                <div class="container" style="padding-bottom:300px; z-index: 4;position:relative">
                 <h1 style="font-size: 7.5rem; color:orange;font-weight:bold;font-family:Geneva">Matteo Anthony Aiello</h1>
-                <hr style="width:600px; margin-bottom:1vh; margin-top:1vh;">
+                <hr style="width:600px; margin-bottom:1vh; margin-top:2vh;">
                 <p style="font-size:2.5rem;color:orange;font-family:'Raleway'">Welcome to my personal web space.</p>
                 </div> 
                 <!--container end-->
@@ -58,22 +59,61 @@
             <!--photobackground end-->
 
           <!--NavBar-->
-          <nav class="navbar navbar-inverse navbarstyle" style="position:-webkit-sticky; position:sticky; top:0; z-index: 999; width:100%;border-top:orange 2px solid;border-bottom:orange 3px solid;">
+          <nav class="navbar navbar-inverse navbarstyle">
               <!--buttons/links in navbar-->
               <ul class="nav navbar-nav">
-                <li><a href="/" class="navbuttonformat highlighted"> Home</a></li>
-                <li><a href="pages/about/index.html" class="navbuttonformat"> About</a></li>
-                <li><a href="pages/CV/index.html" class="navbuttonformat"> CV</a></li>
-                <li><a href="pages/projects/index.html" class="navbuttonformat"> Projects</a></li>
-                <li><a href="pages/blog/index.html" class="navbuttonformat"> Contact</a></li>
+                <li><a href="/" class="navbuttonformat highlighted"> Home</a></li> <!--fix highlight-->
+                <li><a href="#section2" class="navbuttonformat intro-start"> Profile</a></li>
+                <li><a href="#section3" class="navbuttonformat intro-2"> CV</a></li>
+                <li><a href="#section4" class="navbuttonformat intro-3"> Projects</a></li>
+                <li><a href="#section5" class="navbuttonformat intro-4"> Contact</a></li>
               </ul>
           </nav>
           <!--navbar-->
 
-        <div id="section2" class="section pagecontentstyle"> <!-- About Page -->
-          About 
-
+        <!--section2-->
+        <div id="section2" class="section pagecontentstyle;"> 
+          <!--container-->
+          <div class="container" style="width:120vh; text-align: center;">
+            <h1 style="color: orange;margin-top:60px;">My Profile.</h1>
+            <p>A mechanical engineering student, athlete, and liver of life.</p>
+            <hr>
+            <!--row-->
+            <div class="row">
+              <div class="col-md-4" >
+                <h3 style="color: orange;">About Me:</h3>
+                <p> I am a third-year mechanical engineering student at The University of Victoria. I'm
+                  most interested in the optimization and innovation of energy systems. I grew up in 
+                  Calgary, AB but have had many homes around the country in sport, education, 
+                  and co-op experience. 
+                </p>
+              </div>
+              <div class="col-md-4">
+                <img src="">
+              </div>
+              <div class="col-md-4">
+                <h3 style="color: orange;">Bio:</h3>
+                <p> 
+                  <strong>Name:</strong><br>
+                  Matteo Anthony Aiello <br>
+                  <strong>Age:</strong><br>
+                  21 years old <br>
+                  <strong>Current Location:</strong><br>
+                  Victoria, BC <br>
+                  <strong>Post-Secondary:</strong><br>
+                  BEng - Bachelor of Engineering (Co-op) <br> (continuing)
+                </p>
+              </div>
+            </div>
+            <!--row-->
+            <br>
+            <p>I programmed this site in my free time using HTML, CSS, and JavaScript. It's 
+              hosted by Github, <a href="https://github.com/matteoaiello/matteoaiello.github.io"> click here </a> to see my repository.
+            </p>
+          </div>
+          <!--container end-->
         </div>
+        <!--section2 end-->
 
         <div id="section3" class="section pagecontentstyle"> <!-- CV Page -->
           Curriculum Vitae 
@@ -104,7 +144,7 @@ crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.js"></script>
 <script type="text/javascript">
   var myFullpage = new fullpage('#fullpage', {
-    sectionsColor: ['none','wheat','whitesmoke','wheat','whitesmoke'],
+    sectionsColor: ['none','whitesmoke','#E0E0E0','whitesmoke','#E0E0E0'],
     autoScrolling: false,
     navigation: false,
     navigationTooltips: ['Home','About','CV','Projects', 'Contact'],
