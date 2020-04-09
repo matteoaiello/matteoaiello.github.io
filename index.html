@@ -39,7 +39,7 @@
             <!--photobackground-->
             <div class="photobackground">
             <!--Home Page-->
-            <div class="section pagecontentstyle">
+            <div id="section1" class="section pagecontentstyle">
                 <!--container-->
                 <div class="container" style="padding-bottom:300px; z-index: 4;position:relative">
                 <h1 style="font-size: 7.5rem; color:orange;font-weight:bold;font-family:Geneva">Matteo Anthony Aiello</h1>
@@ -62,7 +62,7 @@
           <nav class="navbar navbar-inverse navbarstyle">
               <!--buttons/links in navbar-->
               <ul class="nav navbar-nav">
-                <li><a href="/" class="navbuttonformat highlighted"> Home</a></li> <!--fix highlight-->
+                <li><a href="#section1" class="navbuttonformat intro-1 highlighted"> Home</a></li> <!--fix highlight-->
                 <li><a href="#section2" class="navbuttonformat intro-start"> Profile</a></li>
                 <li><a href="#section3" class="navbuttonformat intro-2"> CV</a></li>
                 <li><a href="#section4" class="navbuttonformat intro-3"> Projects</a></li>
@@ -72,7 +72,7 @@
           <!--navbar-->
 
         <!--section2-->
-        <div id="section2" class="section pagecontentstyle;"> 
+        <div id="section2" class="section pagecontentstyle fp-auto-height"> 
           <!--container-->
           <div class="container" style="width:120vh; text-align: center;">
             <h1 style="color: orange;margin-top:60px;">My Profile.</h1>
@@ -101,7 +101,7 @@
                   <strong>Current Location:</strong><br>
                   Victoria, BC <br>
                   <strong>Post-Secondary:</strong><br>
-                  BEng - Bachelor of Engineering (Co-op) <br> (continuing)
+                  BEng - Bachelor of Engineering <br> (continuing)
                 </p>
               </div>
             </div>
@@ -110,14 +110,66 @@
             <p>I programmed this site in my free time using HTML, CSS, and JavaScript. It's 
               hosted by Github, <a href="https://github.com/matteoaiello/matteoaiello.github.io"> click here </a> to see my repository.
             </p>
+            <br>
+            <span style="color:darkgrey"> Git
+            <i class="fab fa-github" style="color: darkgrey; font-size: xx-large;padding-bottom: 20px;"></i>
+            hub</span>
           </div>
           <!--container end-->
         </div>
         <!--section2 end-->
 
-        <div id="section3" class="section pagecontentstyle"> <!-- CV Page -->
-          Curriculum Vitae 
-          
+        <!--section3-->
+        <div id="section3" class="section section3 pagecontentstyle fp-auto-height"> 
+          <!--container-->
+          <div class="container" style="width:120vh; text-align: center;">
+            <h1 style="color: orange;margin-top:60px;">Curriculum Vitae</h1>
+            <p>Dive in to my personal and professional experiences.</p>
+            <hr> <!--change this color-->
+            <h3 style="color: orange;text-align: left;">Education:</h3>
+            <div class="experiences">
+              <!--firstrow-->
+              <div class="row">
+                <div class="col-md-4" style="text-align: left;">
+                  <h4 style="font-weight: bold">University of Victoria</h4>
+                  <p style="color: #757575;line-height: 80%;">September 2017 - Current</p>
+                </div>
+                <div class="col-md-8" style="text-align: left;line-height: 100%;">
+                  <h5 style="font-weight: bold;">Bachelor of Engineering (BEng) - Mechanical Engineering (Co-op)</h5>
+                  <p style="color: #757575;line-height: 150%;">The faculty of engineering has been a great asset in my discovery
+                  and practice of calculus, mechanics, design, technical writing, teamwork and more. A projected
+                  16 months of co-op experience will provide real-world competencies, expectations, guidance, 
+                  and confidence. 
+                  </p>
+                  <span class="fas fa-map-marker-alt" style="color:orange;"></span> 
+                  <span style="color:orange;"> Victoria, BC</span>  
+                </div>
+              </div>
+              <!--firstrowend-->
+              <br>
+              <!--secondrow--> 
+              <div class="row">
+                <div class="col-md-4" style="text-align: left;">
+                  <h4 style="font-weight: bold">St. Francis High School</h4>
+                  <p style="color: #757575;line-height: 80%;">September 2013 - April 2016</p>
+                </div>
+                <div class="col-md-8" style="text-align: left;line-height: 100%;">
+                  <h5 style="font-weight: bold;">Diploma</h5>
+                  <p style="color: #757575;line-height: 150%;"> I spent my tenth and eleventh years in school, 
+                    mostly enjoying math and sciences. In year 12, my schooling was completed remoted from Brooks, AB 
+                    where I played Junior A hockey for the Brooks Bandits. 
+                  </p>
+                  <span class="fas fa-map-marker-alt" style="color:orange;"></span>
+                  <span style="color:orange;">Calgary, AB</span>
+                </div>
+                <hr> <!--fix color-->
+              </div>
+              <!--secondrowend-->
+              
+
+
+          </div>
+
         </div>
 
         <div id="section4"  class="section pagecontentstyle"> <!-- Projects Page -->
@@ -144,7 +196,7 @@ crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.js"></script>
 <script type="text/javascript">
   var myFullpage = new fullpage('#fullpage', {
-    sectionsColor: ['none','whitesmoke','#E0E0E0','whitesmoke','#E0E0E0'],
+    sectionsColor: ['none','whitesmoke','#EEEEEE','whitesmoke','#EEEEEE'],
     autoScrolling: false,
     navigation: false,
     navigationTooltips: ['Home','About','CV','Projects', 'Contact'],
