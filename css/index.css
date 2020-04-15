@@ -179,11 +179,6 @@ footer {
     z-index: 3 !important;
 }
 
-hr {
-    color: black !important;
-    background-color: black;
-}
-
 .col-md-4 {
     /*text-align: left !important;*/
     line-height: 200%;
