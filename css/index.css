@@ -180,6 +180,8 @@ footer {
 }
 
 hr {
+    color: black !important;
+    background-color: black;
 }
 
 .col-md-4 {
