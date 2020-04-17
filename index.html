@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
     <!-- css links -->
     <link href="/css/index.css" rel="stylesheet" />
+    <link href="/css/main.css" rel="stylesheet" />
+    <link href="/css/main.scss" rel="stylesheet" />
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Raleway font -->
@@ -29,12 +31,19 @@
     <!--- fullpageCSS -->
     <link rel="stylesheet" type="text/css" href="/css/fullpage.css" />
 
+    <!--hr style-->
     <style>
       hr {
         height: 1px;
-        background-color: #3E2723;
-        opacity: 0.5;
-        border-top: white 2px solid !important;
+        background-color: grey;
+        opacity: 0.3;
+        border: none !important;
+      }
+      .photobackground hr {
+        height: 3px;
+        background-color: orange;
+        opacity: 0.8;
+        border: none !important;
       }
     </style>
 
@@ -51,14 +60,14 @@
             <div id="section1" class="section pagecontentstyle">
                 <!--container-->
                 <div class="container" style="padding-bottom:300px; z-index: 4;position:relative">
-                <h1 style="font-size: 7.5rem; color:orange;font-weight:bold;font-family:Geneva">Matteo Anthony Aiello</h1>
+                <h1 style="font-size: 7.5rem; color:orange;font-weight:bold;font-family:'Geneva'">Matteo Anthony Aiello</h1>
                 <hr style="width:600px; margin-bottom:1vh; margin-top:2vh;">
                 <p style="font-size:2.5rem;color:orange;font-family:'Raleway'">Welcome to my personal web space.</p>
                 </div> 
                 <!--container end-->
                 <!--icon-->
                 <div class="scroll-down intro-start">
-                  <i class="fa fa-angle-double-down bounce" style="color:orange; font-size: xxx-large; padding-top: 1.9vh;"></i>
+                  <i class="fa fa-angle-double-down bounce" style="color:orange; font-size: xxx-large; padding-top: 2vh;height: auto;"></i>
                 </div>
                 <!--icon end-->
                 <div class="overlay"></div>
@@ -81,7 +90,7 @@
           <!--navbar-->
 
         <!--section2-->
-        <div id="section2" class="section pagecontentstyle fp-auto-height"> 
+        <div id="section2" class="section pagecontentstyle fp-auto-height" style="border-bottom: lightgray 0.5vh dotted;"> 
           <!--container-->
           <div class="container" style="width:120vh; text-align: center;">
             <h1 style="color: orange;margin-top:60px;">My Profile.</h1>
@@ -98,7 +107,7 @@
                 </p>
               </div>
               <div class="col-md-4">
-                <img src="">
+                <img src=""> <!--ME!-->
               </div>
               <div class="col-md-4">
                 <h3 style="color: orange;">Bio:</h3>
@@ -129,17 +138,17 @@
         <!--section2 end-->
 
         <!--section3-->
-        <div id="section3" class="section section3 pagecontentstyle fp-auto-height"> 
+        <div id="section3" class="section pagecontentstyle fp-auto-height" style="border-bottom: lightgray 0.5vh dotted;"> 
           <!--container-->
           <div class="container" style="width:120vh; text-align: center;">
             <h1 style="color: orange;margin-top:60px;">Curriculum Vitae</h1>
             <p>Dive in to my personal and professional experiences.</p>
-            <hr> <!--change this color-->
+            <hr> 
             
             <div class="experiences">
-              <h3 style="color: orange;text-align: left;">Education:</h3>
+              <h3 style="color: orange;text-align: left;">EDUCATION:</h3>
               <!--firstrow-->
-              <div class="row">
+              <div class="row" style="padding-bottom: 2.5vh;">
                 <div class="col-md-4" style="text-align: left;">
                   <h5 style="font-weight: bold">University of Victoria</h4>
                   <p style="color: #757575;line-height: 80%;">Sept. 2017 - Current</p>
@@ -158,7 +167,7 @@
               <!--firstrowend-->
               <br>
               <!--secondrow--> 
-              <div class="row">
+              <div class="row" style="padding-bottom: 2.5vh;">
                 <div class="col-md-4" style="text-align: left;">
                   <h5 style="font-weight: bold">St. Francis High School</h4>
                   <p style="color: #757575;line-height: 80%;">Sept. 2013 - Apr. 2016</p>
@@ -167,7 +176,7 @@
                   <h5 style="font-weight: bold;">Diploma</h5>
                   <p style="color: #757575;line-height: 150%;"> I spent my tenth and eleventh years in school, 
                     mostly enjoying math and sciences. In year 12, my schooling was completed remoted from Brooks, AB 
-                    where I played Junior A hockey for the Brooks Bandits. 
+                    where I played Junior 'A' hockey for the Brooks Bandits. 
                   </p>
                   <span class="fas fa-map-marker-alt" style="color:orange;"></span>
                   <span style="color:orange;">Calgary, AB</span>
@@ -175,9 +184,9 @@
               </div>
               <!--secondrowend-->
               <hr>
-              <h3 style="color: orange;text-align: left;">Career:</h3>
+              <h3 style="color: orange;text-align: left;">CAREER:</h3>
               <!--firstrow-->
-              <div class="row">
+              <div class="row" style="padding-bottom: 2.5vh;">
                 <div class="col-md-4" style="text-align: left;">
                   <h5 style="font-weight: bold">Corvus Energy</h4>
                   <p style="color: #757575;line-height: 80%;">Jan. 2019 - May 2019</p>
@@ -199,7 +208,7 @@
               <!--firstrowend-->
               <br>
               <!--secondrow-->
-              <div class="row">
+              <div class="row" style="padding-bottom: 2.5vh;">
                 <div class="col-md-4" style="text-align: left;">
                   <h5 style="font-weight: bold">Crescent Point Energy</h4>
                   <p style="color: #757575;line-height: 80%;">May 2018 - Sept. 2018</p>
@@ -221,9 +230,9 @@
               </div>
               <!--secondrowend-->
               <hr>
-              <h3 style="color: orange;text-align: left;">Unique Experience:</h3>
+              <h3 style="color: orange;text-align: left;">OTHER:</h3>
               <!--firstrow-->
-              <div class="row">
+              <div class="row" style="padding-bottom: 2.5vh;">
                 <div class="col-md-4" style="text-align: left;">
                   <h5 style="font-weight: bold">Fort McMurray Oil Barons (AJHL)</h4>
                     <p style="color: #757575;line-height: 80%;">Sept. 2016 - May 2017</p>
@@ -245,7 +254,7 @@
               <!--firstrowend-->
               <br>
               <!--secondrow-->
-              <div class="row">
+              <div class="row" style="padding-bottom: 2.5vh;">
                 <div class="col-md-4" style="text-align: left;">
                   <h5 style="font-weight: bold">Brooks Bandits (AJHL)</h4>
                     <p style="color: #757575;line-height: 80%;">Sept. 2015 - May 2016</p>
@@ -271,15 +280,15 @@
             <!--insert logos here-->
           </div>
           <!--experiencesend-->
-          <div style="padding-bottom:3vh; padding-top: 1vh;">
+          <div style="padding-bottom:5vh; padding-top: 1vh;">
             <span>
-              <img style="width:20vh;padding-left:2vh;padding-right: 2vh;"
+              <img style="width:150px;padding-left:2vh;padding-right: 2vh;"
                 src="/images/1200px-Fort_McMurray_Oil_Barons_Logo.svg.png">
-              <img style="width:20vh;padding-left:2vh;padding-right: 2vh" 
+              <img style="width:150px;padding-left:2vh;padding-right: 2vh" 
                 src="/images/Brooks_Bandits_logo.png">
-                <img style="width:20vh;padding-left:2vh;padding-right: 2vh" 
+                <img style="width:150px;padding-left:2vh;padding-right: 2vh" 
                   src="/images/uvic logo.png">
-              <img style="width:20vh;padding-left:2vh;padding-right: 2vh"
+              <img style="width:150px;padding-left:2vh;padding-right: 2vh"
                 src="/images/kisspng-crescent-point-energy-nyse-logo-petroleum-email-logo-5b5b2af2411ff8.8654570515327014262668.png">
               <img style="width:20vh;padding-left:2vh;padding-right: 2vh"
                 src="/images/imageedit_5_3347514338.png">
@@ -288,10 +297,106 @@
         </div>
         <!--section3end-->
 
-        <div id="section4"  class="section pagecontentstyle"> <!-- Projects Page -->
-          Projects 
-          
+        <!--section4-->
+        <div id="section4"  class="section pagecontentstyle fp-auto-height" style="border-bottom: lightgray 0.5vh dotted;"> 
+          <!--container-->
+          <div class="container" style="width:120vh; text-align: center;">
+            <h1 style="color: orange;margin-top:60px;">Projects</h1>
+            <p>Exploring my own creativity has always been important to me. My education has afforded</p>
+            <p> me new opportunities to do so and I do not take that for granted. Take a look.</p>
+            <hr>
+            <br>
+          </div>
+          <!--container_end-->
+          <!--cardsclass-->
+          <div class="cardsclass container" style="width: 120vh;">
+            <div class="row">
+              <!--firstcard-->
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <figure class="effect" style="border: 2px grey solid">
+                  <img src="/images/DAC.jpg" alt="">
+                  <figcaption>
+                    <h3>DAC Research</h3>
+                    <p>Direct Air Capture (DAC), technology of the future.</p>
+                    <p>
+                      <strong>Skills:</strong>
+                      <br>
+                      Technical writing, research, ...
+                    </p>
+                    <a href="" target="_blank">Read more</a>
+                    <span class="icon" style="border-left: 2px grey solid;border-bottom: 2px grey solid;">
+                      <span class="fas fa-door-open" style="padding:25%; font-size:large"></span>
+                    </span>
+                  </figcaption>
+                </figure>
+              </div>
+              <!--firstcardend-->
+              <!--secondcard-->
+              <div class="col-md-6 col-sm-12 col-xs-12" >
+                <figure class="effect" style="border: 2px grey solid;">
+                  <img src="/images/onc logo.png" alt="">
+                  <figcaption>
+                    <h3>DAC Research</h3>
+                    <p>Direct Air Capture (DAC), technology of the future.</p>
+                    <p>
+                      <strong>Skills:</strong>
+                      <br>
+                      Technical writing, research, ...
+                    </p>
+                    <a href="" target="_blank">Read more</a>
+                    <span class="icon" style="border-left: 2px grey solid;border-bottom: 2px grey solid;">
+                      <span class="fas fa-door-open" style="padding:25%; font-size:large"></span>
+                    </span>
+                  </figcaption>
+                </figure>
+              </div>
+              <!--secondcardend-->
+              <!--thirdcard-->
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <figure class="effect" style="border: 2px grey solid;">
+                  <img src="/images/onc logo.png" alt="">
+                  <figcaption>
+                    <h3>DAC Research</h3>
+                    <p>Direct Air Capture (DAC), technology of the future.</p>
+                    <p>
+                      <strong>Skills:</strong>
+                      <br>
+                      Technical writing, research, ...
+                    </p>
+                    <a href="" target="_blank">Read more</a>
+                    <span class="icon" style="border-left: 2px grey solid;border-bottom: 2px grey solid;">
+                      <span class="fas fa-door-open" style="padding:25%; font-size:large"></span>
+                    </span>
+                  </figcaption>
+                </figure>
+              </div>
+              <!--thirdcardend-->
+              <!--fourthcard-->
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <figure class="effect" style="border: 2px grey solid;">
+                  <img src="/images/onc logo.png" alt="">
+                  <figcaption>
+                    <h3>DAC Research</h3>
+                    <p>Direct Air Capture (DAC), technology of the future.</p>
+                    <p>
+                      <strong>Skills:</strong>
+                      <br>
+                      Technical writing, research, ...
+                    </p>
+                    <a href="" target="_blank">Read more</a>
+                    <span class="icon" style="border-left: 2px grey solid;border-bottom: 2px grey solid;">
+                      <span class="fas fa-door-open" style="padding:25%; font-size:large"></span>
+                    </span>
+                  </figcaption>
+                </figure>
+              </div>
+              <!--fourthcardend-->
+            </div>
+            <!--row_end-->
+          </div>
+          <!--cardsclass_end-->
         </div>
+        <!--section4_end-->
 
         <div id="section5" class="section pagecontentstyle"> <!-- Contact Page -->
           Contact
@@ -324,6 +429,9 @@ crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
 
+<!--my javascript-->
 <script src="/JS/index.js"></script>
+
+
 
 </html>
