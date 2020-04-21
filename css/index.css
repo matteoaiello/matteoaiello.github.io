@@ -156,7 +156,7 @@ footer {
 }
 
 .overlay {
-    background-color:silver;
+    background-color:whitesmoke;
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -346,3 +346,25 @@ figure.effect figcaption {
 #section7 h1 {
     color: white !important;
 }
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#section7 a {
+    color: orange;
+}
+
+#section7 a:hover {
+    text-decoration: none !important;
+    font-weight: bolder;
+}
+
+#section7 ul i {
+    color: white;
+    padding-right: 10px;
+    padding-bottom:15px;
+}
+
