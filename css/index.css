@@ -10,7 +10,7 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: rgb(43, 43, 43) !important;
+  background-color: rgb(83, 81, 81) !important;
   border-top-width: 5px;
   border-top-style: solid;
   border-color: dodgerblue;
@@ -24,7 +24,7 @@ footer {
 }
 
 .btn-primary {
-    background-color:  rgb(43, 43, 43);
+    background-color:  rgb(83, 81, 81);
     border:none;
     color: white;
     text-align: center;
@@ -39,7 +39,7 @@ footer {
 }
 
 .btn-primary:active {
-    color: rgb(66, 66, 66); 
+    color: rgb(83, 81, 81); 
 }
 
 /* Footer code ends here */
@@ -47,7 +47,7 @@ footer {
 .wrapper{
     position: relative;
     min-height: 120vh;
-    background-color:  rgb(43, 43, 43);
+    background-color:  rgb(83, 81, 81);
 }
 
 .jumbotron {
@@ -64,17 +64,15 @@ footer {
 }
 
 .navbuttonformat {
-    color: orange !important; 
-    font-size: medium; 
+    color: rgb(83, 81, 81) !important; 
+    font-size: large; 
     font-family: 'Raleway';
-}
-
-.highlighted {
-    text-decoration-line: overline;
+    font-weight: bold;
 }
 
 .navbuttonformat:hover {
     font-weight: bolder !important;
+    text-decoration: overline !important;
 }
 
 .imageformat {
@@ -95,10 +93,13 @@ footer {
 }
 
 .navbarstyle {
-    background-color:  rgb(43, 43, 43); 
+    background-color:  orange; 
     height:20px !important; 
     position:-webkit-sticky; position:sticky; top:0; z-index: 999; 
-    width:100%;border-top:orange 2px solid;border-bottom:orange 3px solid;
+    width:100%;
+    border-top: 2px rgb(83, 81, 81) solid;
+    border-bottom: 2px rgb(83, 81, 81) solid;
+
 }
 
 .navbar {
@@ -130,10 +131,10 @@ footer {
     position: absolute;
     bottom: 2vh;
     right: 47%;
-    background-color: rgb(43, 43, 43);
+    background-color: orange;
     text-align: center;
     z-index: 6;
-    border: orange 2px solid;
+    border: rgb(83, 81, 81) 2px solid;
     cursor: pointer;
     border-radius: 30px;
 }
@@ -155,7 +156,7 @@ footer {
 }
 
 .overlay {
-    background-color:black;
+    background-color:silver;
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -241,7 +242,8 @@ footer {
 }
 
 .cardsclass figure img {
-    height: 400px;
+    height: 300px;
+    width: 100%;
 }
 
 .cardsclass figure h3 {
@@ -276,11 +278,12 @@ figure.effect p {
     transition: opacity 0.35s, transform 0.35s;
     -webkit-transform: translate3d(100%,0,0);
     transform: translate3d(100%,0,0);
+    font-size: medium;
 }
 
 figure.effect img {
     width: -webkit-calc(100% + 20px);
-    width: calc(100% + 20px);
+    width: calc(100%);
     -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
     transition: opacity 0.35s, transform 0.35s;
     -webkit-transform: translate3d(-10px,0,0);
@@ -335,3 +338,11 @@ figure.effect figcaption {
 /*-----------------*/
 /* projects cards end here */
 /*-----------------*/
+
+#section7 p {
+    color: darkgrey;
+}
+
+#section7 h1 {
+    color: white !important;
+}

@@ -17,3 +17,11 @@ $(".intro-3").click(function () {
 $(".intro-4").click(function () {
     $("html, body").animate({ scrollTop: $("#section5").offset().top }, 1000);
 });
+
+$(".intro-5").click(function () {
+    $("html, body").animate({ scrollTop: $("#section6").offset().top }, 1000);
+});
+
+$(".intro-6").click(function () {
+    $("html, body").animate({ scrollTop: $("#section7").offset().top }, 1000);
+});
