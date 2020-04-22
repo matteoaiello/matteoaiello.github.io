@@ -50,24 +50,14 @@ footer {
     background-color:  rgb(83, 81, 81);
 }
 
-.jumbotron {
-    z-index: 5;
-    background-color:transparent;
-    color:  white;
-    text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
 * {
     font-family: 'Raleway';
 }
 
 .navbuttonformat {
-    color: rgb(83, 81, 81) !important; 
+    color: whitesmoke !important; 
     font-size: large; 
     font-family: 'Raleway';
-    font-weight: bold;
 }
 
 .navbuttonformat:hover {
@@ -82,23 +72,13 @@ footer {
     transform: translate(-50%,-50%);
 }
 
-.viewmyresume {
-    font-weight:bold; 
-    color: dodgerblue;
-}
-
-.viewmyresume:hover {
-    cursor:pointer;
-    color: dodgerblue;
-}
-
 .navbarstyle {
-    background-color:  orange; 
-    height:20px !important; 
+    background-color: rgb(83, 81, 81); 
+    height:10px !important; 
     position:-webkit-sticky; position:sticky; top:0; z-index: 999; 
     width:100%;
-    border-top: 2px rgb(83, 81, 81) solid;
-    border-bottom: 2px rgb(83, 81, 81) solid;
+    border-top: 2px #607D8B solid;
+    border-bottom: 2px #607D8B solid;
 
 }
 
@@ -131,10 +111,10 @@ footer {
     position: absolute;
     bottom: 2vh;
     right: 47%;
-    background-color: orange;
+    background-color: rgb(83, 81, 81);
     text-align: center;
     z-index: 6;
-    border: rgb(83, 81, 81) 2px solid;
+    border: whitesmoke 2px solid;
     cursor: pointer;
     border-radius: 30px;
 }
@@ -156,13 +136,13 @@ footer {
 }
 
 .overlay {
-    background-color:whitesmoke;
+    background-color:#607D8B;
     position: absolute;
     top: 0px;
     bottom: 0px;
     left: 0px;
     right: 0px;
-    opacity: 0.8;
+    opacity: 0.7;
     filter: alpha(opacity=75);
     z-index: 1 !important;
 }
@@ -226,7 +206,7 @@ footer {
 }
 
 .cardsclass figure .icon {
-    background: orange;
+    background: #607D8B;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -258,7 +238,7 @@ footer {
 /*---------------*/
 
 figure.effect {
-    background: orange;
+    background: #607D8B;
     color: white;
 }
 
@@ -354,7 +334,7 @@ ul.no-bullets {
 }
 
 #section7 a {
-    color: orange;
+    color: white;
 }
 
 #section7 a:hover {
