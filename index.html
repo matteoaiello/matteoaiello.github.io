@@ -22,6 +22,9 @@
     <link href="/css/index.css" rel="stylesheet" />
     <link href="/css/main.css" rel="stylesheet" />
     <link href="/css/main.scss" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css"
+      media="only screen and (max-width: 480px), only screen and (max-device-width: 480px)"
+      href="/css/smalldevice.css" />
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- Raleway font -->
@@ -48,7 +51,8 @@
     </style>
 
   </head> <!--head end--> 
-
+  
+<!------------------------------------------ body starts -------------------------------------------->
 
   <body> <!-- body starts -->
     
@@ -95,7 +99,7 @@
         <div id="section2" class="section pagecontentstyle fp-auto-height" > 
           <!--container-->
           <div class="container" style="width:800px; text-align: center;">
-            <h1 style="color: #607D8B;margin-top:60px;">My Profile.</h1>
+            <h1 style="color: #607D8B;margin-top:60px;">Profile</h1>
             <p>A mechanical engineering student, athlete, and liver of life.</p>
             <hr>
             <!--row-->
@@ -109,18 +113,18 @@
                 </p>
               </div>
               <div class="col-md-4">
-                <img src="/images/264CC7AB-6C00-440B-BCF4-7024B5920A71 (1).jpg" style="width:90%;margin-top:40px;border-radius:5000px;border: 10px solid #ECEFF1;"> <!--ME!-->
+                <img src="/images/264CC7AB-6C00-440B-BCF4-7024B5920A71 (1).jpg" style="width:220px;margin-top:40px;border-radius:5000px;border: 10px solid #ECEFF1;"> <!--ME!-->
               </div>
-              <div class="col-md-4" data-aos="zoom-in">
+              <div class="col-md-4" data-aos="zoom-in" style="padding-right: 60px;">
                 <h3 style="color: #607D8B;">Biography:</h3>
                 <p> 
-                  <strong>NAME:</strong><br >
-                  Matteo Anthony Aiello <br>
-                  <strong>AGE:</strong><br>
+                  <strong style="text-decoration: underline;">Name:</strong><br >
+                  Matteo Aiello <br>
+                  <strong style="text-decoration: underline;">Age:</strong><br>
                   21 years old <br>
-                  <strong>CURRENT LOCATION:</strong><br>
+                  <strong style="text-decoration: underline;">Current Location:</strong><br>
                   Victoria, BC <br>
-                  <strong>POST-SECONDARY:</strong><br>
+                  <strong style="text-decoration: underline;">Post-Secondary:</strong><br>
                   BEng - Bachelor of Engineering <br> (continuing)
                 </p>
               </div>
@@ -128,7 +132,7 @@
             <!--row-->
             <br>
             <p>I programmed this site in my free time using HTML, CSS, and JavaScript. It's 
-              hosted by Github, <a href="https://github.com/matteoaiello/matteoaiello.github.io" style="color: #8A54A2;"> click here </a> to see my repository.
+              hosted by Github, <a href="https://github.com/matteoaiello/matteoaiello.github.io" style="color: darkslategray;"> click here </a> to see my repository.
             </p>
             <br>
             <span style="color:darkgrey"> Git
@@ -177,7 +181,7 @@
                 <div class="col-md-8" style="text-align: left;line-height: 100%;">
                   <h5 style="font-weight: bold;">Diploma</h5>
                   <p style="color: #757575;line-height: 150%;"> I spent my tenth and eleventh years in school, 
-                    mostly enjoying math and sciences. In year 12, my schooling was completed remoted from Brooks, AB 
+                    mostly enjoying math and sciences. In year 12, my schooling was completed remotely from Brooks, AB 
                     where I played Junior 'A' hockey for the Brooks Bandits. 
                   </p>
                   <span class="fas fa-map-marker-alt" style="color:#607D8B;"></span>
@@ -360,15 +364,15 @@
               <!--thirdcard-->
               <div class="col-md-6 col-sm-12 col-xs-12">
                 <figure class="effect " style="border: 2px grey solid;">
-                  <img src="/images/BAD.jpg" alt="">
+                  <img src="/images/Blog_coding-game.jpg.webp" alt="">
                   <figcaption>
-                    <h3>Billiards Assistive Device</h3>
-                    <p>So that all people can enjoy the game of billiards. 
+                    <h3>Interactive Resume</h3>
+                    <p>Because pdfs are boring. 
                     </p>
                     <p>
                       <strong>Skills:</strong>
                       <br>
-                      CAD, Arduino, pneumatics, machining, mechatronics, ...
+                      HTML, CSS, Bootstrap Framework, JavaScript ...
                     </p>
                     <a href="" target="_blank">Read more</a>
                     <span class="icon" style="border-left: 2px grey solid;border-bottom: 2px grey solid;">
@@ -553,7 +557,7 @@
                 <p style="padding-top: 20px;padding-left: 30px;">
                   Leaving competitive sport, I made it a goal of mine to maintain my physique and general well-being. 
                   Since then, it has become a priority of mine to train each and every week, regardless of my course
-                  load at university. I have adjusted my eating patterns and enjoy tracking different metric like sleep, 
+                  load at university. I have adjusted my eating patterns and enjoy tracking different metrics like sleep, 
                   calories, fluids, macros, etc. 
                 </p>
               </div>
@@ -644,6 +648,8 @@
         
   </body> <!-- body ends -->
 
+  <!--------------------------------------- body ends --------------------------------------->
+
 
   <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
@@ -674,5 +680,15 @@ crossorigin="anonymous"></script>
 <script>
   AOS.init();
 </script>
+
+<!------------ small screen redirect ------------>
+<script type="text/javascript">
+  $(window).on('load resize', function () {
+    if ($(window).width() < 950) {
+      window.location = ""
+    }
+  });
+</script>
+<!------------ small screen redirect ------------>
 
 </html>
