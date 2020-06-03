@@ -25,3 +25,4 @@ $(".intro-5").click(function () {
 $(".intro-6").click(function () {
     $("html, body").animate({ scrollTop: $("#section7").offset().top }, 1000);
 });
+
