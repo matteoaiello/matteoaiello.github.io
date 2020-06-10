@@ -145,7 +145,6 @@ footer {
 
 .photobackground{
     background-image: url("/images/20091130-Teton-Moonlight-bw.jpg");
-    height:100vh;
     background-attachment:fixed;
     background-position:center;
     background-repeat:no-repeat;
