@@ -132,7 +132,7 @@ footer {
 
 .overlay {
     background-color:#607D8B;
-    position: absolute;
+    position: relative;
     top: 0px;
     bottom: 0px;
     left: 0px;
@@ -144,7 +144,7 @@ footer {
 
 .photobackground{
     background-image: url("/images/20091130-Teton-Moonlight-bw.jpg");
-    height:812px;
+    height:100vh;
     background-attachment:fixed;
     background-position:center;
     background-repeat:no-repeat;
