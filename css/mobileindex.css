@@ -41,7 +41,7 @@ footer {
 
 .wrapper{
     position: relative;
-    min-height: 120vh;
+    min-height: 100vh;
     background-color:  rgb(83, 81, 81);
 }
 
@@ -145,6 +145,7 @@ footer {
 
 .photobackground{
     background-image: url("/images/20091130-Teton-Moonlight-bw.jpg");
+    height:100vh;
     background-attachment:fixed;
     background-position:center;
     background-repeat:no-repeat;
