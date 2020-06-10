@@ -85,31 +85,35 @@
         </div>
         <!--photobackground end-->
 
+        <!----------------------- Navigation ----------------------->
+
         <!--NavBar-->
-        <nav class="navbar navbarstyle">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle Navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+        <nav class="topnav">
+            <a href="#home" class="active" style="height: 52px;border-top: darkslategray solid 2px;border-bottom: darkslategray solid 2px;"></a>
+            <div id="myLinks">
+                <a href="#section1">Home</a>
+                <a href="#section2">Profile</a>
+                <a href="#section3">CV</a>
+                <a href="#section4">Projects</a>
+                <a href="#section5">Qualifications</a>
+                <a href="#section6">Interests</a>
+                <a href="#section7">Contact</a>
             </div>
-            <!--start here next, working on styles/js-->
-            <div class="navbar-collapse navbar-ex1-collapse collapse in" style="height: 1px;">
-                <!--buttons/links in navbar-->
-                <ul class="nav navbar-nav">
-                    <li><a href="#section1" class="intro-1"> Home</a></li>
-                    <li><a href="#section2" class="intro-start"> Profile</a></li>
-                    <li><a href="#section3" class="intro-2"> CV</a></li>
-                    <li><a href="#section4" class="intro-3"> Projects</a></li>
-                    <li><a href="#section5" class="intro-4"> Qualifications</a></li>
-                    <li><a href="#section6" class="intro-5"> Interests</a></li>
-                    <li><a href="#section7" class="intro-6"> Contact</a></li>
-                </ul>
-            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </nav>
-        <!--navbar-->
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
+        <!-- navbar end -->
 
     <!--------------------- Section 2 - Profile --------------------->
         <!--section2-->
