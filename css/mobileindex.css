@@ -146,7 +146,7 @@ footer {
 
 .photobackground{
     background-image: url("/images/20091130-Teton-Moonlight-bw.jpg");
-    height:80vh;
+    height:100vh;
     background-attachment:fixed;
     background-position:center;
     background-repeat:no-repeat;
@@ -379,4 +379,8 @@ ul.no-bullets {
 
 .active {
   color: rgb(83, 81, 81);
+}
+
+.fp-tablecell {
+    padding-top: 0 !important;
 }
