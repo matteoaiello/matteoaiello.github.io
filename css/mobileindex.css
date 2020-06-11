@@ -104,7 +104,7 @@ footer {
     width: 100%;
     display: block;
     position: absolute;
-    bottom: 0vh;                                      
+    bottom: 5vh;                                      
     background-color: rgb(83, 81, 81);
     text-align: center;
     z-index: 6;
@@ -142,11 +142,12 @@ footer {
     opacity: 0.7;
     filter: alpha(opacity=75);
     z-index: 1 !important;
+    height: 100vh;
 }
 
 .photobackground{
     background-image: url("/images/20091130-Teton-Moonlight-bw.jpg");
-    height:100vh;
+    height:85vh;
     background-attachment:fixed;
     background-position:center;
     background-repeat:no-repeat;
@@ -381,6 +382,7 @@ ul.no-bullets {
   color: rgb(83, 81, 81);
 }
 
-.fp-tablecell {
-    padding-top: 0 !important;
+.fp-tableCell {
+    padding: 0 !important;
+    display: table !important;
 }
