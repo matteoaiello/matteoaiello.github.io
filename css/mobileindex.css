@@ -117,6 +117,7 @@ footer {
 
 .bounce{
     animation: bounce 2s infinite;
+    animation-iteration-count: infinite;
 }
 
 @keyframes bounce {
