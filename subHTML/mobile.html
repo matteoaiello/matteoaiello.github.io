@@ -97,7 +97,8 @@
                 <a href="#section4" class="intro-3">Projects</a>
                 <a href="#section5" class="intro-4">Qualifications</a>
                 <a href="#section6" class="intro-5">Interests</a>
-                <a href="#section7" class="intro-6">Contact</a>
+                <a href="#section7" class="intro-6" >Contact</a>
+                <a href="mailto:matteo.aiello22@gmail.com?subject=Request For Quote" target="_blank" >Request A Quote</a>
             </div>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
@@ -331,7 +332,7 @@
                                 <br>
                                 Technical writing, research, data management
                             </p>
-                            <a href="/subHTML/DAC.html" target="_blank">Read more</a>
+                            <a href="/subHTML/DAC.html" target="_blank" id="four">Read more</a>
                             <span class="icon" style="border-left: 2px grey solid;border-bottom: 2px grey solid;">
                                 <span class="fas fa-external-link-alt" style="padding:30%; font-size:large"></span>
                             </span>
@@ -349,7 +350,7 @@
                                 <br>
                                 C programming, VEX, mechatronics, CAD, ...
                             </p>
-                            <a href="/subHTML/ONC.html" target="_blank">Read more</a>
+                            <a href="/subHTML/ONC.html" target="_blank" id="three">Read more</a>
                             <span class="icon" style="border-left: 2px grey solid;border-bottom: 2px grey solid;">
                                 <span class="fas fa-external-link-alt" style="padding:30%; font-size:large"></span>
                             </span>
@@ -368,7 +369,7 @@
                                 <br>
                                 HTML, CSS, Bootstrap Framework, JavaScript ...
                             </p>
-                            <a href="/subHTML/Site.html" target="_blank">Read more</a>
+                            <a href="/subHTML/Site.html" target="_blank" id="one">Read more</a>
                             <span class="icon" style="border-left: 2px grey solid;border-bottom: 2px grey solid;">
                                 <span class="fas fa-external-link-alt" style="padding:30%; font-size:large"></span>
                             </span>
@@ -388,7 +389,7 @@
                                 <br>
                                 CAD, Arduino, pneumatics, machining, mechatronics, ...
                             </p>
-                            <a href="/subHTML/BAD.html" target="_blank">Read more</a>
+                            <a href="/subHTML/BAD.html" target="_blank" id="two">Read more</a>
                             <span class="icon" style="border-left: 2px grey solid;border-bottom: 2px grey solid;">
                                 <span class="fas fa-external-link-alt" style="padding:30%; font-size:large"></span>
                             </span>
@@ -711,3 +712,19 @@
     AOS.init();
 </script>
 
+<script type="text/javascript">
+    if (screen.width >= 900) {
+        window.location = "../index.html";
+    }
+</script>
+
+<!------------ Fixes issues where navbar is clicked through: ------------>
+
+<script type="text/javascript">
+    if (getElementById(myLinks).display =  block) {
+        document.getElementById("one").innerHTML = (onclick ="return false;")
+        document.getElementById("two").innerHTML = null;
+        document.getElementById("three").innerHTML = null;
+        document.getElementById("four").innerHTML = null;
+    }
+</script>
