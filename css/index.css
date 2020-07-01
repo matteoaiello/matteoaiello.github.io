@@ -1,7 +1,3 @@
-.brandimage {
-
-}
-
 /* footer code starts here */ 
 
 footer {
@@ -350,9 +346,6 @@ ul.no-bullets {
 
 @media (max-width: 855px) {
 #CON {
-display: none;
-}
-#RFQ {
 display: none;
 }
 }
