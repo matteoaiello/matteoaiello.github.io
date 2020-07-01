@@ -377,8 +377,8 @@ ul.no-bullets {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: rgb(83, 81, 81);
+  
+  color: white;
 }
 
 .active {
@@ -389,3 +389,8 @@ ul.no-bullets {
     padding: 0 !important;
     display: table !important;
 }
+
+
+
+
+
