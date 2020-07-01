@@ -120,7 +120,7 @@ footer {
 }
 
 .bounce{
-    animation: bounce 2s infinite;
+    animation: bounce 1s infinite;
 }
 
 @keyframes bounce {
