@@ -11,11 +11,11 @@ $(".intro-2").click(function () {
 });
 
 $(".intro-3").click(function () {
-    $("html, body").animate({ scrollTop: $("#section4").offset().top }, 1000);
+    $("html, body").animate({ scrollTop: $("#section4").offset().top -300}, 1000);
 });
 
 $(".intro-4").click(function () {
-    $("html, body").animate({ scrollTop: $("#section5").offset().top +200}, 1000);
+    $("html, body").animate({ scrollTop: $("#section5").offset().top -300}, 1000);
 });
 
 $(".intro-5").click(function () {
