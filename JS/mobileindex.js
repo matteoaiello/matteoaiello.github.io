@@ -15,7 +15,7 @@ $(".intro-3").click(function () {
 });
 
 $(".intro-4").click(function () {
-    $("html, body").animate({ scrollTop: $("#section5").offset().top +100}, 1000);
+    $("html, body").animate({ scrollTop: $("#section5").offset().top +300}, 1000);
 });
 
 $(".intro-5").click(function () {
