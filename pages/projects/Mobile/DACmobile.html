@@ -46,31 +46,94 @@
     <div style="position: relative;">
     <a href="#home" class="active" style="height: 58px;border-bottom: white solid 2px;border-top: white solid 2px;"></a>
     <div id="myLinks">
-        <a href="#section1" class="intro-1">Home</a>
-        <a href="#section2" class="intro-start">Profile</a>
-        <a href="#section3" class="intro-2">CV</a>
-        <a href="#section4" class="intro-3">Portfolio</a>
-        <a href="#section5" class="intro-4">Qualifications</a>
-        <a href="#section6" class="intro-5">Interests</a>
-        <a href="#section7" class="intro-6" >Contact</a>
+        <a href="/#section1" class="intro-1">Home</a>
+        <a href="/#section2" class="intro-start">Profile</a>
+        <a href="/#section3" class="intro-2">CV</a>
+        <a href="/#section4" class="intro-3">Portfolio</a>
+        <a href="/#section5" class="intro-4">Qualifications</a>
+        <a href="/#section6" class="intro-5">Interests</a>
+        <a href="/#section7" class="intro-6" >Contact</a>
     </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
+    <a href="/#section1" class="icon" >
+        <i class="fas fa-arrow-left" style="padding-right: 320px;"></i>
     </a>
     </div>
 </nav>
-<script>
-    function myFunction() {
-        var x = document.getElementById("myLinks");
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        } else {
-            x.style.display = "block";
-        }
-    }
-</script>
 <!-- navbar end -->
 
+<div>
+    <br>
+  </div>
+  <!--TopSpacingEnd-->
+  <div class="container" style="width:350px">
+    <div class="row">
+        <!--Text-->
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <h1 style="text-align: left;">
+                Project: Direct Air Capture (DAC) Research Report
+            </h1>
+            <br>
+            <p style="line-height: 160%;font-size: medium;">
+                Innovative technology has always been one of my greatest motivators in the field of mechanical engineering. I've spent countless hours thinking about how I 
+                might make a difference in the world as an engineer, and my curiosity led me to a brand-new technology called Direct Air Capture (DAC). DAC is especially captivating 
+                in it's ability to yield negative emissions. <br><br>
+                To develop a better understanding of the topic and express my interest in it, I ventured into the world of technical writing to create a research report 
+                with some useful insight for my own reference, and potentially that of others. 
+            </p><br>
+            <p style="line-height: 160%;font-size: medium;">
+                Here is a link to my report, cited in IEEE:
+                <a href="/images\Direct Air Capture - Matteo Aiello .pdf" target="_blank">DirectAirCapture.pdf</a>
+            </p>
+            <p style="line-height: 160%;font-size: medium;color: #607D8B;padding-top: 10px;font-weight: 600;">
+                Skills: Data Management, Technical Writing, Research
+            </p>
+        </div>
+        <!--TextEnd-->
+        <!--Image-->
+        <div class="col-md-6 col-sm-12 col-xs-12" >
+            <br>
+            <img src="/images\dacpic.jpg" style="width: 100%;border-radius: 10px;margin-top: 12px;margin-bottom: 50px;">
+        </div>
+        <!--ImageEnd-->
+    </div>
+  </div>
+
+</div> <!-- wrapper ends -->    
+
+</body> <!-- body ends -->
+
+<!--------------------------------------- body ends --------------------------------------->
 
 
-</body>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+crossorigin="anonymous"></script>
+
+<!-- FullpageJS CDN -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.js"></script>
+<script type="text/javascript">
+var myFullpage = new fullpage('#fullpage', {
+sectionsColor: ['none','white','#ECEFF1','white','#ECEFF1','white','rgb(83, 81, 81)'],
+autoScrolling: false,
+navigation: false,
+navigationTooltips: ['Home','Profile','CV','Portfolio', 'Qualifications', 'Interests','Contact'],
+showActiveTooltip: false, 
+fitToSection: false,
+}); </script>
+
+<!-- JQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous"></script>
+
+<!-- my javascript -->
+<script src="/JS/index.js"></script>
+
+<!-- AOS Library -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
+
+
