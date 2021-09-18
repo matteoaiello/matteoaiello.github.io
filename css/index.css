@@ -70,11 +70,11 @@ footer {
 
 .navbarstyle {
     background-color: rgb(83, 81, 81); 
-    height:80px !important; 
+    height:85px !important; 
     position:-webkit-sticky; position:sticky; top:0; z-index: 999; 
     width:100%;
     border-top: 2px #607D8B solid;
-    border-bottom: 2px #607D8B solid;
+    border-bottom: 10px #607D8B solid;
 
 }
 
